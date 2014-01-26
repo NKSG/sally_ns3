@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<FlowMonitor>
+  <FlowStats>
+    <Flow flowId="1" timeFirstTxPacket="+20000000.0ns" timeFirstRxPacket="+20254000.0ns" timeLastTxPacket="+49020000000.0ns" timeLastRxPacket="+49022149929.0ns" delaySum="+32883605.0ns" jitterSum="+25998811.0ns" lastDelay="+2149929.0ns" txBytes="2400" rxBytes="2352" txPackets="50" rxPackets="49" lostPackets="1" timesForwarded="0">
+    </Flow>
+    <Flow flowId="2" timeFirstTxPacket="+37000000.0ns" timeFirstRxPacket="+37254000.0ns" timeLastTxPacket="+49040000000.0ns" timeLastRxPacket="+29706646376.0ns" delaySum="+1822567201.0ns" jitterSum="+761545428.0ns" lastDelay="+664646376.0ns" txBytes="2400" rxBytes="1152" txPackets="50" rxPackets="24" lostPackets="16" timesForwarded="0">
+    </Flow>
+    <Flow flowId="3" timeFirstTxPacket="+49000000.0ns" timeFirstRxPacket="+49254000.0ns" timeLastTxPacket="+49047000000.0ns" timeLastRxPacket="+49050105674.0ns" delaySum="+46484210.0ns" jitterSum="+39749760.0ns" lastDelay="+3105674.0ns" txBytes="2400" rxBytes="2352" txPackets="50" rxPackets="49" lostPackets="0" timesForwarded="0">
+    </Flow>
+    <Flow flowId="4" timeFirstTxPacket="+61000000.0ns" timeFirstRxPacket="+61254000.0ns" timeLastTxPacket="+49069000000.0ns" timeLastRxPacket="+49069929745.0ns" delaySum="+43558849.0ns" jitterSum="+41575497.0ns" lastDelay="+929745.0ns" txBytes="2400" rxBytes="2208" txPackets="50" rxPackets="46" lostPackets="3" timesForwarded="0">
+    </Flow>
+    <Flow flowId="5" timeFirstTxPacket="+70000000.0ns" timeFirstRxPacket="+70254000.0ns" timeLastTxPacket="+49069000000.0ns" timeLastRxPacket="+49749284445.0ns" delaySum="+1501638207.0ns" jitterSum="+741064439.0ns" lastDelay="+680284445.0ns" txBytes="2400" rxBytes="1056" txPackets="50" rxPackets="22" lostPackets="20" timesForwarded="0">
+    </Flow>
+    <Flow flowId="6" timeFirstTxPacket="+20019371500.0ns" timeFirstRxPacket="+20021909545.0ns" timeLastTxPacket="+49999681875.0ns" timeLastRxPacket="+49999194804.0ns" delaySum="+11814265427935.0ns" jitterSum="+17287421560.0ns" lastDelay="+683544261.0ns" txBytes="8080728" rxBytes="1659864" txPackets="87834" rxPackets="18042" lostPackets="45979" timesForwarded="0">
+    </Flow>
+    <Flow flowId="7" timeFirstTxPacket="+20919680774.0ns" timeFirstRxPacket="+20928739191.0ns" timeLastTxPacket="+49999896028.0ns" timeLastRxPacket="+49999964977.0ns" delaySum="+11466367868094.0ns" jitterSum="+17288337201.0ns" lastDelay="+671129936.0ns" txBytes="7838124" rxBytes="1582400" txPackets="85197" rxPackets="17200" lostPackets="44236" timesForwarded="0">
+    </Flow>
+  </FlowStats>
+  <Ipv4FlowClassifier>
+    <Flow flowId="4" sourceAddress="10.1.1.1" destinationAddress="10.1.1.255" protocol="17" sourcePort="654" destinationPort="654" />
+    <Flow flowId="1" sourceAddress="10.1.1.2" destinationAddress="10.1.1.255" protocol="17" sourcePort="654" destinationPort="654" />
+    <Flow flowId="3" sourceAddress="10.1.1.3" destinationAddress="10.1.1.255" protocol="17" sourcePort="654" destinationPort="654" />
+    <Flow flowId="6" sourceAddress="10.1.1.4" destinationAddress="10.1.1.1" protocol="17" sourcePort="49154" destinationPort="9" />
+    <Flow flowId="5" sourceAddress="10.1.1.4" destinationAddress="10.1.1.255" protocol="17" sourcePort="654" destinationPort="654" />
+    <Flow flowId="7" sourceAddress="10.1.1.5" destinationAddress="10.1.1.2" protocol="17" sourcePort="49154" destinationPort="9" />
+    <Flow flowId="2" sourceAddress="10.1.1.5" destinationAddress="10.1.1.255" protocol="17" sourcePort="654" destinationPort="654" />
+  </Ipv4FlowClassifier>
+</FlowMonitor>

@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<CustomStats>
+<RoutingStats numPackets="34074" nAodvControlPacketsReceived="12646" nAodvControlPacketsSent="1000" nOlsrControlPacketsReceived="7192" nOlsrControlPacketsSent="525" aodvPacketSizeReceived="240274" aodvPacketSizeSent="20000" olsrPacketSizeReceived="0" olsrPacketSizeSent="82376" totalEnergy="2.3251e+06" />
+</CustomStats>
